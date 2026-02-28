@@ -2,54 +2,55 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# BrokeNoMoreBabe
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: Blue
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Bhavana B - College of Engineering Perumon
+- Member 2: Chaminda Satheesh - College of Engineering Perumon
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://broke-no-more-babe.vercel.app/
 
 ### Project Description
-[2-3 lines about what your project does]
+
 
 ### The Problem statement
-[What problem are you solving?]
+We’re college students, and somehow the money disappears before the month ends. 💸 We don’t really know where it all went—food, outings, shopping… it just adds up. By the time we check, we’re already broke. The finance apps out there feel like boring spreadsheets and don’t really relate to how we spend.
 
 ### The Solution
-[How are you solving it?]
-
----
+We wanted something that actually speaks our language. BrokeNoMoreBabe is a fun, student-friendly budgeting app that:
+Lets us set a monthly budget
+Tracks spending category-wise (Dress, Food, Travel, Academic…)
+Shows a visual dashboard so we can see where the money’s going
+Features a Savage Baddie Advisor that pops up and roasts us when we overspend
+It turns boring budgeting into something interactive, relatable, and even entertaining like having a brutally honest friend keeping us in check.
 
 ## Technical Details
+HTML, CSS, JS , Chart.js, localStorage, deployed on Vercel. No backend, no database—fully frontend.
 
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
-
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
-
----
+- Languages used: HTML5, CSS3, JavaScript
+- Frameworks used: None
+- Libraries used:Chart.js
+- Tools used: VS Code, Git, Vercel
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1:Monthly Budget Entry – Users must enter their monthly budget, which forms the baseline for all tracking and analysis.
+- Feature 2:Category-wise Expense Tracking – Track spending in multiple categories (Dress, Food, Travel, Academic, etc.) and subcategories, giving users clarity on where their money goes.
+- Feature 3: Visual Dashboard – Real-time doughnut graphs and cards show total budget, spent amount, remaining balance, and category breakdown.
+-  Feature 4:Feature 4: Savage Baddie Advisor – Provides interactive, playful feedback by roasting overspending, with mood-based avatars and randomized messages.
+Feature 5: Data Persistence – All data is saved in browser localStorage, so user progress is retained across sessions.
+Feature 6: Month Auto-Reset Logic – Automatically resets data at the start of a new month, prompting for a fresh budget.
+Feature 7: Responsive UI & Interactive Design – Soft luxury aesthetic with animated popups, dynamic color states (green/yellow/red), and mobile-friendly layout.
+- Feature 8:Monthly Badge- monthly badge having calendar feature inside on month budge hwere expenses spent month is marked is also added
 
 ---
 
@@ -59,21 +60,17 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+git clone https://github.com/bhavanahh/BrokeNoMoreBabe.git
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+# On Windows / Mac / Linux
+double-click index.html
+# Or open via browser
+open index.html
 ```
 
-### For Hardware:
-
-#### Components Required
-[List all components needed with specifications]
-
-#### Circuit Setup
-[Explain how to set up the circuit]
 
 ---
 
@@ -106,28 +103,7 @@ List the key features of your project:
 
 ---
 
-### For Hardware:
 
-#### Schematic & Circuit
-
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-#### Build Photos
-
-![Team](Add photo of your team here)
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ---
 
