@@ -111,28 +111,24 @@ open index.html
 
 *Explain what the video demonstrates - key features, user flow, technical highlights*
 
-### Additional Demos
-[Add any extra demo materials/links - Live site, APK download, online demo, etc.]
 
 ---
 
 ## AI Tools Used (Optional - For Transparency Bonus)
 
-If you used AI tools during development, document them here for transparency:
 
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+**Tool Used:** ChatGPT, Claude
 
-**Purpose:** [What you used it for]
-- Example: "Generated boilerplate React components"
-- Example: "Debugging assistance for async functions"
-- Example: "Code review and optimization suggestions"
+**Purpose:**
+Helped debug JavaScript logic for dynamic chart updates
+Help me convert a png into a logo thing that made my one code file so lenghty 
+Suggested UI/UX improvements and best practices for user flow
 
 **Key Prompts Used:**
-- "Create a REST API endpoint for user authentication"
-- "Debug this async function that's causing race conditions"
-- "Optimize this database query for better performance"
+-Write JS logic for an interactive avatar that responds to user input"
+-"want a calendar feature with amonthly badge on dashboard that takes to calendar"
 
-**Percentage of AI-generated code:** [Approximately X%]
+**Percentage of AI-generated code:** [60 X%]
 
 **Human Contributions:**
 - Architecture design and planning
@@ -146,10 +142,8 @@ If you used AI tools during development, document them here for transparency:
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
-
+- Bhavana :  Frontend development
+- Chaminda: Idea generation and presentation
 ---
 
 ## License
