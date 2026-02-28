@@ -46,7 +46,7 @@ List the key features of your project:
 - Feature 1:Monthly Budget Entry – Users must enter their monthly budget, which forms the baseline for all tracking and analysis.
 - Feature 2:Category-wise Expense Tracking – Track spending in multiple categories (Dress, Food, Travel, Academic, etc.) and subcategories, giving users clarity on where their money goes.
 - Feature 3: Visual Dashboard – Real-time doughnut graphs and cards show total budget, spent amount, remaining balance, and category breakdown.
--  Feature 4:Feature 4: Savage Baddie Advisor – Provides interactive, playful feedback by roasting overspending, with mood-based avatars and randomized messages.
+- Feature 4: Savage Baddie Advisor – Provides interactive, playful feedback by roasting overspending, with mood-based avatars and randomized messages.
 Feature 5: Data Persistence – All data is saved in browser localStorage, so user progress is retained across sessions.
 Feature 6: Month Auto-Reset Logic – Automatically resets data at the start of a new month, prompting for a fresh budget.
 Feature 7: Responsive UI & Interactive Design – Soft luxury aesthetic with animated popups, dynamic color states (green/yellow/red), and mobile-friendly layout.
@@ -153,9 +153,8 @@ Detects new month → resets data → prompts user for new budget
 ## Project Demo
 
 ### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
 
-*Explain what the video demonstrates - key features, user flow, technical highlights*
+https://drive.google.com/file/d/19Bn1xCu-1Uj6sNVcWy_0pjiPF4-rH_j5/view?usp=drivesdk
 
 
 ---
