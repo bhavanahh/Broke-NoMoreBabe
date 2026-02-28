@@ -131,12 +131,56 @@ Suggested UI/UX improvements and best practices for user flow
 **Percentage of AI-generated code:** [60 X%]
 
 **Human Contributions:**
-- Architecture design and planning
-- Custom business logic implementation
-- Integration and testing
-- UI/UX design decisions
 
-*Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!*
+Concept ideation and problem definition
+System architecture design
+Core functionality implementation
+Business logic development
+Integration of components
+Testing and validation
+UI customization and design decisions
+- Architecture design and planning
+
+  
+Step 1: First Visit
+● User enters monthly budget.
+● App stores:
+○ Budget amount
+○ Current month
+○ Category structure
+Step 2: Dashboard Loads
+Displays:
+● Total budget
+● Total spent
+● Remaining amount
+● Doughnut graph (budget vs spent)
+● Category cards
+Step 3: Add Expense
+User:
+● Enters amount
+● Selects category
+System:
+● Updates totals
+● Recalculates percentage
+● Saves to localStorage
+● Updates graph
+● Runs spending analysis
+Step 4: Analysis Engine Runs
+JavaScript function checks:
+● % of budget used
+● Remaining amount
+● Category thresholds
+Based on conditions:
+→ Savage Baddie popup appears
+→ Mood + avatar changes
+→ Random roast message shown
+Step 5: Month Change
+On detecting new month:
+● Reset data
+● Prompt for new budget
+- Custom business logic implementation
+- UI/UX design decisions
+  <img src="./img.png">
 
 ---
 
