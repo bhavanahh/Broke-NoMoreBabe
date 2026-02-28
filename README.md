@@ -22,6 +22,7 @@ https://broke-no-more-babe.vercel.app/
 We’re college students, and somehow the money disappears before the month ends. 💸 We don’t really know where it all went—food, outings, shopping… it just adds up. By the time we check, we’re already broke. The finance apps out there feel like boring spreadsheets and don’t really relate to how we spend.
 
 ### The Solution
+
 We wanted something that actually speaks our language. BrokeNoMoreBabe is a fun, student-friendly budgeting app that:
 Lets us set a monthly budget
 Tracks spending category-wise (Dress, Food, Travel, Academic…)
@@ -30,7 +31,8 @@ Features a Savage Baddie Advisor that pops up and roasts us when we overspend
 It turns boring budgeting into something interactive, relatable, and even entertaining like having a brutally honest friend keeping us in check.
 
 ## Technical Details
-HTML, CSS, JS , Chart.js, localStorage, deployed on Vercel. No backend, no database—fully frontend.
+
+HTML, CSS, JS , Chart.js, localStorage, deployed on Vercel. No backend, no database—fully frontend.Since we have no much knowledge about those🥲
 
 ### Technologies/Components Used
 
@@ -43,13 +45,22 @@ HTML, CSS, JS , Chart.js, localStorage, deployed on Vercel. No backend, no datab
 ## Features
 
 List the key features of your project:
+
+
 - Feature 1:Monthly Budget Entry – Users must enter their monthly budget, which forms the baseline for all tracking and analysis.
+
 - Feature 2:Category-wise Expense Tracking – Track spending in multiple categories (Dress, Food, Travel, Academic, etc.) and subcategories, giving users clarity on where their money goes.
+
 - Feature 3: Visual Dashboard – Real-time doughnut graphs and cards show total budget, spent amount, remaining balance, and category breakdown.
+
 - Feature 4: Savage Baddie Advisor – Provides interactive, playful feedback by roasting overspending, with mood-based avatars and randomized messages.
+
 Feature 5: Data Persistence – All data is saved in browser localStorage, so user progress is retained across sessions.
+
 Feature 6: Month Auto-Reset Logic – Automatically resets data at the start of a new month, prompting for a fresh budget.
+
 Feature 7: Responsive UI & Interactive Design – Soft luxury aesthetic with animated popups, dynamic color states (green/yellow/red), and mobile-friendly layout.
+
 - Feature 8:Monthly Badge- monthly badge having calendar feature inside on month budge hwere expenses spent month is marked is also added
 
 ---
@@ -100,7 +111,8 @@ open index.html
 
 **System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
+![Architecture Diagram]
+
 1. High-Level System Flow
 Start → Open App
 Check Budget:
@@ -108,20 +120,25 @@ Not Set → Ask User → Save to localStorage
 Set → Load Dashboard
 Dashboard Displays: Budget, Spent, Remaining, Graph, Categories
 User Adds Expense → Update Totals → Save → Run Analysis → Show Advisor Popup (if triggered)
+
 2. Advisor Logic Flow
 After expense added → Calculate % used
 % ≥ 90 → Mood: Angry → Critical Roast
 % ≥ 70 → Mood: Warning → Warning Roast
 Category Limit Exceeded → Category Roast
 Otherwise → Calm Message
+
 3. Monthly Reset Flow
 On app load → Get current month → Compare with stored month
 Same → Load existing data
 Different → Clear data → Prompt new budget
+
 4. UI Structure Flow
 Header → Budget Summary Cards → Graph (Chart.js) → Category Cards → Add Expense Button → Advisor Popup
+
 5. Technical Architecture Flow
 User Action → JS Event Listener → Update State → Save to localStorage → Recalculate → Update UI → Trigger Advisor Logic
+
 
 **Application Workflow:**
 
