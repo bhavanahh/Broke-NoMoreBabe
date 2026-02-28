@@ -80,26 +80,72 @@ open index.html
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img src="splashscreen.png">
+*splash screen showing logo and tagline*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+<img src="dashboard.png">
+*Showing as details as homepage having button to add expenses and other features
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img src="budgetchecking.png">
+*is monthly budget set? page for setting that*
+
+<img src="addexpense.png">
+*form add expenses*
+
+<img src="calendar.png">
+*Calender view having money spent marking*
+
 
 #### Diagrams
 
 **System Architecture:**
 
 ![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
+1. High-Level System Flow
+Start → Open App
+Check Budget:
+Not Set → Ask User → Save to localStorage
+Set → Load Dashboard
+Dashboard Displays: Budget, Spent, Remaining, Graph, Categories
+User Adds Expense → Update Totals → Save → Run Analysis → Show Advisor Popup (if triggered)
+2. Advisor Logic Flow
+After expense added → Calculate % used
+% ≥ 90 → Mood: Angry → Critical Roast
+% ≥ 70 → Mood: Warning → Warning Roast
+Category Limit Exceeded → Category Roast
+Otherwise → Calm Message
+3. Monthly Reset Flow
+On app load → Get current month → Compare with stored month
+Same → Load existing data
+Different → Clear data → Prompt new budget
+4. UI Structure Flow
+Header → Budget Summary Cards → Graph (Chart.js) → Category Cards → Add Expense Button → Advisor Popup
+5. Technical Architecture Flow
+User Action → JS Event Listener → Update State → Save to localStorage → Recalculate → Update UI → Trigger Advisor Logic
 
 **Application Workflow:**
 
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
+<img src="ui.jpeg"
+Step 1: First Visit
+User enters monthly budget
+App stores: budget amount, current month, category structure
+Step 2: Dashboard Loads
+Displays total budget, total spent, remaining amount
+Shows doughnut graph (budget vs spent) and category cards
+Step 3: Add Expense
+User enters amount & selects category
+System updates totals, recalculates percentages, saves to localStorage, updates graph, runs spending analysis
+Step 4: Analysis Engine Runs
+JS function checks budget %, remaining amount, category thresholds
+
+If thresholds met:
+→ Savage Baddie popup appears
+→ Mood & avatar change
+→ Random roast message shown
+
+Step 5: Month Change
+
+Detects new month → resets data → prompts user for new budget
 
 ---
 
@@ -180,7 +226,7 @@ On detecting new month:
 ● Prompt for new budget
 - Custom business logic implementation
 - UI/UX design decisions
-  <img src="./img.png">
+  <img src="ui.jpeg">
 
 ---
 
